@@ -1,0 +1,28 @@
+h1 {
+   font-family: 'Times New Roman', Times, serif;
+   background-color: rgb(116, 201, 204);
+   
+}
+
+.me {
+   width: 200px;
+   height: 250px;
+}
+
+.rick {
+   width: 270px;
+   height: 200px;
+}
+
+ul, li {
+   list-style-type: none;
+   display: inline-block;
+}
+
+.content {
+   display: inline-block;
+}
+
+.para1 {
+   display: inline-block;
+}
