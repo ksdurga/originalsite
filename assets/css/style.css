@@ -1,7 +1,17 @@
+h1, h2 {
+   font-family: 'Roboto Condensed', sans-serif;
+   background-color: rgb(193, 181, 247);
+   font-weight: normal;
+}
+
 h1 {
-   font-family: 'Times New Roman', Times, serif;
-   background-color: rgb(116, 201, 204);
-   
+   display: inline;
+   padding: 15px;
+}
+
+h2 {
+   background-color: white;
+   border-bottom: 2px solid lightslategray;
 }
 
 .me {
@@ -19,10 +29,25 @@ ul, li {
    display: inline-block;
 }
 
-.content {
+.bio {
    display: inline-block;
+   width: 800px;
+   position: absolute;
+   padding-left: 20px;
+   padding-right: 20px;
+   margin-left: 20px;
+   margin-top: 0px;
+   height: 150px;
+   right: -90;
 }
 
-.para1 {
+p {
+   font-family: 'Open Sans Condensed', sans-serif;
+   line-height: 30px;
+   font-size: 18px;
+}
+
+nav {
    display: inline-block;
+   font-family: 'Open Sans Condensed', sans-serif;
 }
