@@ -41,7 +41,7 @@ ul, li {
    right: -90;
 }
 
-p {
+p, form {
    font-family: 'Open Sans Condensed', sans-serif;
    line-height: 30px;
    font-size: 18px;
@@ -50,4 +50,45 @@ p {
 nav {
    display: inline-block;
    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+label {
+   display: block;
+}
+
+.textblock {
+   width: 250px;
+   height: 200px;
+}
+
+li {
+   font-size: 13px;
+   padding: 10px;
+}
+
+ul {
+   margin-left: 650px;
+}
+
+
+.footer {
+   text-align: center;
+   background-color: rgb(193, 181, 247);
+   bottom: 0;
+   font-family: 'Roboto Condensed', sans-serif;
+   position: fixed;
+   border-top: 8px solid powderblue;
+   min-width: 100%;
+
+}
+
+.content {
+   margin-right: 50px;
+   margin-left: 50px;
+}
+
+.button {
+   font-family: 'Roboto Condensed', sans-serif;
+   font-size: 14px;
+   background-color: powderblue;
 }

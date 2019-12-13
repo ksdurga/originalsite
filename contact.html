@@ -5,34 +5,44 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta http-equiv="X-UA-Compatible" content="ie=edge">
    <title>Contact</title>
+   <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Roboto+Condensed&display=swap" rel="stylesheet">
    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 </head>
 <body>
-   <h1>Katie Durga</h1>
-   <nav>
-      <ul>
-         <li><a href="index.html">About Me</a></li>
-         <li><a href="contact.html">Contact</a></li>
-         <li><a href="portfolio.html">Portfolio</a></li>
-      </ul>
-   </nav>
+   <div class="content">
+      <h1>Katie Durga</h1>
+      <!--nav bar-->
+      <nav>
+         <ul>
+            <li><a href="index.html">About Me</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+         </ul>
+      </nav>
 
-   <h2>Contact</h2>
+      <h2>Contact</h2>
 
-   <div class="form">
-      <form action="mailto:katie.durga@gmail.com" method="post" enctype="text/plain">
-         <!--Name block-->
-         <label for="frmNameA">Name</label>
-         <input name="name" id="frmNameA" placeholder="Full name" required autocomplete="name"><br>
-         <!--Email block-->
-         <label for="frmEmailA">Email</label>
-         <input type="email" name="email" id="frmEmailA" placeholder="name@example.com" required autocomplete="email"><br>
-         <!--Text box-->
-         Message: <br/>
-         <input type="text" name="comment" size="50"><br><br>
-         <input type="submit" value="Send">
-         <input type="reset" value="Reset">
-      </form>
+      <div class="form">
+         <form action="mailto:katie.durga@gmail.com" method="post" enctype="text/plain">
+            <!--Name block-->
+            <label for="frmNameA">Name</label>
+            <input name="name" id="frmNameA" placeholder="Full name" required autocomplete="name"><br>
+            <!--Email block-->
+            <label for="frmEmailA">Email</label>
+            <input type="email" name="email" id="frmEmailA" placeholder="name@example.com" required autocomplete="email"><br>
+            <!--Text box-->
+            Message: <br/>
+            <input type="text" name="comment" class="textblock"><br><br>
+            <input type="submit" value="Send" class="button">
+            <input type="reset" value="Reset" class="button">
+         </form>
+      </div>
+   </div>
+
+   <div class="footer">
+      <footer>
+         Copyright ©
+      </footer>
    </div>
 </body>
 </html>
