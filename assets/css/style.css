@@ -83,12 +83,21 @@ ul {
 }
 
 .content {
-   margin-right: 50px;
-   margin-left: 50px;
+   margin-left: 30px;
+   margin-right: 30px;
 }
 
 .button {
    font-family: 'Roboto Condensed', sans-serif;
    font-size: 14px;
    background-color: powderblue;
+   border-radius: 4px;
+}
+
+a {
+   text-decoration: none;
+}
+
+body {
+   background-image: "assets/images/white-waves.png";
 }
